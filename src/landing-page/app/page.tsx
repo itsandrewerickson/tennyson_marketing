@@ -6,7 +6,7 @@ import ProForma from "@/components/ProForma";
 import ValueAnalysis from "@/components/ValueAnalysis";
 import Gallery from "@/components/Gallery";
 import Location from "@/components/Location";
-import EmailCapture from "@/components/EmailCapture";
+import CRMForm from "@/components/CRMForm";
 import AirbnbCarousel from "@/components/AirbnbCarousel";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -23,7 +23,7 @@ export default function Home() {
       <AirbnbCarousel />
       <Gallery />
       <Location />
-      <EmailCapture />
+      <CRMForm />
       <Contact />
       <Footer />
     </main>

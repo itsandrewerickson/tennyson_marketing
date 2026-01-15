@@ -56,11 +56,10 @@ export default function Opportunity() {
                 What You Get
               </h4>
               <ul className="space-y-2 text-gray-300">
-                <li>Fully renovated 3BR/2BA main house</li>
+                <li>Fully renovated 2BR/1BA main house</li>
                 <li>Approved plans for 8 new ADUs</li>
                 <li>5 market rate + 3 deed restricted units</li>
                 <li>Vaulted ceilings in all new units</li>
-                <li>Active STR license for immediate income</li>
               </ul>
             </div>
 

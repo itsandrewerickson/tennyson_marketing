@@ -26,8 +26,8 @@ export const property = {
   // Main House
   mainHouse: {
     yearBuilt: 1941,
-    bedrooms: 3,
-    bathrooms: 2,
+    bedrooms: 2,
+    bathrooms: 1,
     livingSF: 1344,
     condition: "Fully Renovated",
     features: ["Full kitchen", "Living room", "Direct courtyard access"],
@@ -35,13 +35,14 @@ export const property = {
     registrationId: "659128",
     airbnbGrossIncome: 4000,
     isAirbnbLicensed: true,
+    airbnbRevenueQ4: [5000, 4136, 4698],
   },
 
   // Existing ADU (Teardown)
   existingADU: {
-    status: "Teardown scheduled",
-    condition: "Poor - to be demolished",
-    config: "1-bed/1-bath suite with kitchenette",
+    status: "Existing Structure",
+    condition: "Fully Furnished / Rentable",
+    config: "1-bedroom, 1-bath small ADU",
   },
 
   // Development Potential
@@ -110,11 +111,11 @@ export const property = {
     },
   ],
   company: "Next Wave Group",
-  marketingDescription: "Opportunity knocks on this buildable lot in Point Loma with tons of upside potential! Property will be delivered with approved plans for 8 additional units in back of the beautiful existing 3 bedroom 2 bath fully renovated home. Final approval expected by late January 2025. Perfect for homeowners and multi-family investors alike. Live, develop and rent all on this incredible property. The existing home features modern finishes, a spacious layout, and a private courtyard. Twin doors let in an abundance of natural light and open onto the inviting patio that is perfect for entertaining or your morning cup of coffee. Huge lot with endless potential! The approved plans for 8 ADU units are expected to be ready to pull permits within weeks. Don't miss the opportunity to build your future today! Great location convenient to Point Loma beaches, Liberty Station, and local dining.",
+  marketingDescription: "The property is a two-bedroom, one-bath primary home in front and a one-bedroom, one-bath small ADU in the back. The property is currently fully furnished and can be sold with the furniture in place. This makes it easy for someone to rent out that property on a short-term basis while they plan around the build. Opportunity knocks on this buildable lot in Point Loma with tons of upside potential! Property will be delivered with approved plans for 8 additional units. Final approval expected by late January 2025. Perfect for homeowners and multi-family investors alike. Live, develop and rent all on this incredible property. The existing home features modern finishes, a spacious layout, and a private courtyard. Twin doors let in an abundance of natural light and open onto the inviting patio that is perfect for entertaining or your morning cup of coffee. Huge lot with endless potential! The approved plans for 8 ADU units are expected to be ready to pull permits within weeks. Don't miss the opportunity to build your future today! Great location convenient to Point Loma beaches, Liberty Station, and local dining.",
   // Rental Analysis
   rentalAnalysis: {
-    averageMarketRent: 2650, // Average of verified local 1BR comps
-    projectedMonthlyGrossIncome: 21200, // 8 units * $2,650
+    averageMarketRent: 2600, // Average of verified local 1BR comps
+    projectedMonthlyGrossIncome: 20800, // 8 units * $2,600
     comps: [
       {
         address: "3042 Newell St",

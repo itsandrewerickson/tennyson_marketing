@@ -4,7 +4,7 @@ import Script from "next/script";
 
 export default function CRMForm() {
     return (
-        <section className="bg-[#2D3436] section-padding" id="lead-capture">
+        <section className="bg-[#2D3436] section-padding" id="email-capture">
             <div className="max-w-2xl mx-auto text-center h-[500px]">
                 <iframe
                     src="https://link.vestorcrm.com/widget/form/LdaCPNYcSHuxuehlYyEv"

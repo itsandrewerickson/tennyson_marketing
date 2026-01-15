@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { promises as fs } from "fs";
-import path from "path";
+import { Resend } from "resend";
 
 interface Lead {
   name: string;
@@ -8,6 +7,8 @@ interface Lead {
   phone?: string;
   timestamp: string;
 }
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   try {
@@ -29,27 +30,38 @@ export async function POST(request: NextRequest) {
       timestamp: new Date().toISOString(),
     };
 
-    // Store leads in a JSON file (simple storage for MVP)
-    const leadsPath = path.join(process.cwd(), "leads.json");
+    // Send notification email to owner
+    await resend.emails.send({
+      from: "noreply@tennyson-marketing.vercel.app",
+      to: "Andrew@TheNextWaveGroup.com",
+      subject: "New Lead Inquiry - Tennyson Street Property",
+      html: `
+        <h2>New Lead Captured</h2>
+        <p><strong>Name:</strong> ${lead.name}</p>
+        <p><strong>Email:</strong> ${lead.email}</p>
+        ${lead.phone ? `<p><strong>Phone:</strong> ${lead.phone}</p>` : ""}
+        <p><strong>Timestamp:</strong> ${lead.timestamp}</p>
+      `,
+    });
 
-    let leads: Lead[] = [];
-    try {
-      const existingData = await fs.readFile(leadsPath, "utf-8");
-      leads = JSON.parse(existingData);
-    } catch {
-      // File doesn't exist yet, start with empty array
-    }
+    // Send confirmation email to lead
+    await resend.emails.send({
+      from: "noreply@tennyson-marketing.vercel.app",
+      to: lead.email,
+      subject: "Thank You - Tennyson Street Opportunity",
+      html: `
+        <h2>Thank You for Your Interest!</h2>
+        <p>Hi ${lead.name},</p>
+        <p>We've received your inquiry about the Tennyson Street property opportunity. A member of our team will be in touch shortly with detailed information and project plans.</p>
+        <p>Best regards,<br/>Next Wave Group</p>
+      `,
+    });
 
-    leads.push(lead);
-    await fs.writeFile(leadsPath, JSON.stringify(leads, null, 2));
-
-    // TODO: Send email with plans PDF using Resend or SendGrid
-    // For now, just log and return success
     console.log("New lead captured:", lead);
 
     return NextResponse.json({
       success: true,
-      message: "Thank you! Check your email for the plans.",
+      message: "Thank you! Check your email for more information.",
     });
   } catch (error) {
     console.error("Error processing subscription:", error);

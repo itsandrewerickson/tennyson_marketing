@@ -3,6 +3,7 @@ import Highlights from "@/components/Highlights";
 import Opportunity from "@/components/Opportunity";
 import DevelopmentSummary from "@/components/DevelopmentSummary";
 import ProForma from "@/components/ProForma";
+import ValueAnalysis from "@/components/ValueAnalysis";
 import Gallery from "@/components/Gallery";
 import Location from "@/components/Location";
 import EmailCapture from "@/components/EmailCapture";
@@ -18,6 +19,7 @@ export default function Home() {
       <Opportunity />
       <DevelopmentSummary />
       <ProForma />
+      <ValueAnalysis />
       <AirbnbCarousel />
       <Gallery />
       <Location />

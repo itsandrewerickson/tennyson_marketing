@@ -1,0 +1,14 @@
+{
+  "name": "nextwave-properties",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd src/landing-page && npm run dev",
+    "build": "cd src/landing-page && npm run build",
+    "start": "cd src/landing-page && npm run start",
+    "lint": "cd src/landing-page && npm run lint"
+  },
+  "workspaces": [
+    "src/landing-page"
+  ]
+}

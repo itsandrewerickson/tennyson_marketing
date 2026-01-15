@@ -11,7 +11,7 @@ export default function ValueAnalysis() {
     const valueComparison = [
         { metric: 'Price Per Unit', your: '$473,884', range: '$383K - $600K', position: 'Mid-Market' },
         { metric: 'Price Per SF', your: '$660', range: '$556 - $902', position: 'Mid-Market' },
-        { metric: 'Exit Cap Rate', your: '4.5%', range: '3.72% - 4.38%', position: 'Conservative' },
+        { metric: 'Exit Cap Rate', your: '4.5%', range: '3.72% - 4.38%', position: 'Prudent' },
         { metric: 'Annual NOI', your: '$191,928', range: '—', position: '5.2x current rent' },
     ];
 
@@ -32,7 +32,7 @@ export default function ValueAnalysis() {
                     </h2>
                     <div className="w-16 h-1 bg-[#C9A227] mx-auto mb-6" />
                     <p className="max-w-2xl mx-auto text-[#666666] text-lg">
-                        Comprehensive valuation supported by current market comparables and conservative exit assumptions.
+                        Comprehensive valuation supported by current market comparables and realistic exit assumptions.
                     </p>
                 </div>
 
@@ -169,7 +169,7 @@ export default function ValueAnalysis() {
                 <div className="bg-gradient-to-r from-[#2D3436] to-[#2D3436]/80 rounded-2xl p-8 md:p-12 mb-16 border border-[#C9A227]/20">
                     <h3 className="text-white text-2xl font-bold mb-4">Your Competitive Advantage</h3>
                     <p className="text-gray-300 mb-6 leading-relaxed">
-                        Post-development valuation of <span className="font-bold text-[#C9A227]">$4.26M</span> positions this property as a mid-market premium coastal multifamily asset. With a 4.5% cap rate—conservative relative to comparable prime locations (3.72%-3.93%)—this investment offers a strong margin of safety while maintaining competitive returns.
+                        Post-development valuation of <span className="font-bold text-[#C9A227]">$4.26M</span> positions this property as a mid-market premium coastal multifamily asset. With a 4.5% cap rate—prudent relative to comparable prime locations (3.72%-3.93%)—this investment offers a strong margin of safety while maintaining competitive returns.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                         <div className="flex items-start gap-3">
@@ -182,7 +182,7 @@ export default function ValueAnalysis() {
                         </div>
                         <div className="flex items-start gap-3">
                             <span className="text-[#C9A227] font-bold text-lg mt-1">✓</span>
-                            <span className="text-gray-300">Conservative exit cap provides downside protection</span>
+                            <span className="text-gray-300">Prudent exit cap provides downside protection</span>
                         </div>
                     </div>
                 </div>

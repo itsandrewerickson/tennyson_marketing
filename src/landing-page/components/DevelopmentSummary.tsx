@@ -14,14 +14,48 @@ export default function DevelopmentSummary() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Site Plan / Render */}
-          <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src="/images/site-plan.jpg"
-              alt="Proposed Development Site Plan"
-              fill
-              className="object-cover"
-            />
+          <div
+            className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg cursor-pointer group bg-white border border-gray-100"
+            onClick={() => (document.getElementById('plan-modal') as HTMLDialogElement)?.showModal()}
+          >
+            <div className="absolute inset-0 p-4 flex items-center justify-center">
+              <Image
+                src="/images/tennyson-adus-outline.jpg"
+                alt="Tennyson ADUs Outline"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+              <span className="opacity-0 group-hover:opacity-100 bg-white/90 px-4 py-2 rounded-full text-sm font-semibold shadow-sm transition-opacity">
+                View Fullscreen
+              </span>
+            </div>
           </div>
+
+          <dialog id="plan-modal" className="modal p-0 rounded-xl backdrop:bg-black/80 w-[90vw] h-[90vh] max-w-7xl max-h-[900px]">
+            <div className="relative w-full h-full bg-white p-2">
+              <button
+                onClick={() => (document.getElementById('plan-modal') as HTMLDialogElement)?.close()}
+                className="absolute top-4 right-4 z-50 bg-white/90 p-2 rounded-full hover:bg-[#C9A227] hover:text-white transition-colors shadow-lg"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+              <div className="relative w-full h-full">
+                <Image
+                  src="/images/tennyson-adus-outline.jpg"
+                  alt="Tennyson ADUs Outline"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+            <form method="dialog" className="modal-backdrop">
+              <button>close</button>
+            </form>
+          </dialog>
 
           {/* Details */}
           <div>

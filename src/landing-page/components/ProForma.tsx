@@ -65,7 +65,14 @@ export default function ProForma() {
                                     {rentalAnalysis.comps.map((comp, index) => (
                                         <tr key={index} className="hover:bg-[#F5F5F0]/50 transition-colors">
                                             <td className="px-8 py-4">
-                                                <div className="font-medium text-[#2D3436]">{comp.address}</div>
+                                                <a
+                                                    href={comp.url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="font-medium text-[#2D3436] hover:text-[#C9A227] transition-colors underline decoration-[#C9A227]/30 hover:decoration-[#C9A227]"
+                                                >
+                                                    {comp.address}
+                                                </a>
                                                 <div className="text-[10px] text-[#C9A227] font-bold uppercase tracking-tight">{comp.status}</div>
                                             </td>
                                             <td className="px-4 py-4 text-center text-[#666666]">{comp.beds}</td>

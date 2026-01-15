@@ -8,8 +8,6 @@ interface Lead {
   timestamp: string;
 }
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -29,6 +27,9 @@ export async function POST(request: NextRequest) {
       phone: phone || "",
       timestamp: new Date().toISOString(),
     };
+
+    // Initialize Resend only when needed (lazy load to avoid build-time errors)
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // Send notification email to owner
     await resend.emails.send({

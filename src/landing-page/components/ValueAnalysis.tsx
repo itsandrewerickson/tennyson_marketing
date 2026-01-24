@@ -4,20 +4,20 @@ export default function ValueAnalysis() {
     const metrics = [
         { label: 'Acquisition Price', value: '$1,790,000' },
         { label: 'Total Investment', value: '$3,688,376' },
-        { label: 'Projected ARV', value: '$4,264,960' },
-        { label: 'Gross Profit', value: '$576,584' },
+        { label: 'Projected ARV', value: '$4,121,600' },
+        { label: 'Gross Profit', value: '$433,224' },
     ];
 
     const valueComparison = [
-        { metric: 'Price Per Unit', your: '$473,884', range: '$383K - $600K', position: 'Mid-Market' },
-        { metric: 'Price Per SF', your: '$660', range: '$556 - $902', position: 'Mid-Market' },
+        { metric: 'Price Per Unit', your: '$457,956', range: '$383K - $600K', position: 'Mid-Market' },
+        { metric: 'Price Per SF', your: '$638', range: '$556 - $902', position: 'Mid-Market' },
         { metric: 'Exit Cap Rate', your: '4.5%', range: '3.72% - 4.38%', position: 'Prudent' },
-        { metric: 'Annual NOI', your: '$191,928', range: '—', position: '5.2x current rent' },
+        { metric: 'Annual NOI', your: '$185,472', range: '—', position: '5.0x current rent' },
     ];
 
     const keyDrivers = [
         { title: 'Location Premium', desc: 'Point Loma coastal location with Walk Score 90+' },
-        { title: 'Unit Mix', desc: '1 x 2BR ($3,000/mo) + 8 x 1BR ($2,600/mo)' },
+        { title: 'Unit Mix', desc: '1 x 2BR ($3,000/mo) + 8 x 1BR ($2,500/mo)' },
         { title: 'Occupancy', desc: '96% assumed (4% vacancy buffer included)' },
         { title: 'Development', desc: 'New ADU construction (4,700 SF @ $340/SF)' },
     ];
@@ -109,15 +109,15 @@ export default function ValueAnalysis() {
                         <div className="space-y-4">
                             <div>
                                 <p className="text-[#999999] text-sm mb-1">Price Per Unit</p>
-                                <p className="text-3xl font-bold text-[#2D3436]">$473,884</p>
+                                <p className="text-3xl font-bold text-[#2D3436]">$457,956</p>
                             </div>
                             <div className="pt-4 border-t border-black/5">
                                 <p className="text-[#999999] text-sm mb-1">Monthly Gross Income</p>
-                                <p className="text-2xl font-bold text-[#2D3436]">$23,800</p>
+                                <p className="text-2xl font-bold text-[#2D3436]">$23,000</p>
                             </div>
                             <div className="pt-4 border-t border-black/5">
                                 <p className="text-[#999999] text-sm mb-1">Average Monthly Rent</p>
-                                <p className="text-xl font-bold text-[#C9A227]">$2,644/unit</p>
+                                <p className="text-xl font-bold text-[#C9A227]">$2,556/unit</p>
                             </div>
                         </div>
                     </div>
@@ -130,15 +130,15 @@ export default function ValueAnalysis() {
                         <div className="space-y-4">
                             <div>
                                 <p className="text-[#999999] text-sm mb-1">Gross Profit</p>
-                                <p className="text-3xl font-bold text-[#2D3436]">$576,584</p>
+                                <p className="text-3xl font-bold text-[#2D3436]">$433,224</p>
                             </div>
                             <div className="pt-4 border-t border-black/5">
                                 <p className="text-[#999999] text-sm mb-1">Return on Equity</p>
-                                <p className="text-2xl font-bold text-[#2D3436]">63%</p>
+                                <p className="text-2xl font-bold text-[#2D3436]">47%</p>
                             </div>
                             <div className="pt-4 border-t border-black/5">
                                 <p className="text-[#999999] text-sm mb-1">Profit Margin</p>
-                                <p className="text-xl font-bold text-[#C9A227]">16%</p>
+                                <p className="text-xl font-bold text-[#C9A227]">12%</p>
                             </div>
                         </div>
                     </div>
@@ -155,11 +155,11 @@ export default function ValueAnalysis() {
                             </div>
                             <div className="pt-4 border-t border-black/5">
                                 <p className="text-[#999999] text-sm mb-1">Annual NOI</p>
-                                <p className="text-2xl font-bold text-[#2D3436]">$191,928</p>
+                                <p className="text-2xl font-bold text-[#2D3436]">$185,472</p>
                             </div>
                             <div className="pt-4 border-t border-black/5">
                                 <p className="text-[#999999] text-sm mb-1">Gross Rent Multiplier</p>
-                                <p className="text-xl font-bold text-[#C9A227]">22.2x</p>
+                                <p className="text-xl font-bold text-[#C9A227]">14.9x</p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ export default function ValueAnalysis() {
                 <div className="bg-gradient-to-r from-[#2D3436] to-[#2D3436]/80 rounded-2xl p-8 md:p-12 mb-16 border border-[#C9A227]/20">
                     <h3 className="text-white text-2xl font-bold mb-4">Your Competitive Advantage</h3>
                     <p className="text-gray-300 mb-6 leading-relaxed">
-                        Post-development valuation of <span className="font-bold text-[#C9A227]">$4.26M</span> positions this property as a mid-market premium coastal multifamily asset. With a 4.5% cap rate—prudent relative to comparable prime locations (3.72%-3.93%)—this investment offers a strong margin of safety while maintaining competitive returns.
+                        Post-development valuation of <span className="font-bold text-[#C9A227]">$4.12M</span> positions this property as a mid-market premium coastal multifamily asset. With a 4.5% cap rate—prudent relative to comparable prime locations (3.72%-3.93%)—this investment offers a strong margin of safety while maintaining competitive returns.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                         <div className="flex items-start gap-3">

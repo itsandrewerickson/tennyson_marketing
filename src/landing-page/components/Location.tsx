@@ -3,7 +3,8 @@
 import { property } from "@/lib/propertyData";
 
 export default function Location() {
-  const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(
+  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+  const mapUrl = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${encodeURIComponent(
     `${property.address}, ${property.city}, ${property.state} ${property.zip}`
   )}&zoom=15`;
 

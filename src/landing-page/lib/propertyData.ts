@@ -40,8 +40,8 @@ export const property = {
 
   // Existing ADU (Teardown)
   existingADU: {
-    status: "Existing Structure",
-    condition: "Fully Furnished / Rentable",
+    status: "Teardown scheduled",
+    condition: "Poor - to be demolished",
     config: "1-bedroom, 1-bath small ADU",
   },
 

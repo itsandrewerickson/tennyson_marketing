@@ -1,17 +1,20 @@
 ---
 id: 004
 title: Email Capture & Lead Management
-status: Accepted
+status: Superseded
 date: 2025-01-14
+superseded_date: 2025-01-20
 ---
 
 # Context
 
 The landing page needs to capture email addresses from interested buyers and automatically deliver the architectural plans PDF. We want to keep this simple without a full CRM.
 
-# Decision
+# Original Decision (Superseded)
 
-## Email Capture Flow
+The original plan was to use Vercel Serverless functions with Resend for email delivery. This was abandoned in favor of a simpler third-party solution.
+
+## Original Proposed Flow
 
 ```
 User visits landing page
@@ -35,46 +38,69 @@ Form posts to serverless function
 User sees confirmation + download link
 ```
 
-## Implementation Options
+# Current Implementation
 
-### Option A: Vercel Serverless (Recommended)
-- Serverless function at `/api/subscribe`
-- Store leads in Vercel KV or JSON file
-- Use Resend or SendGrid for emails
-- **Pros**: Full control, no third-party dependencies
-- **Cons**: More code to write
+## VestorCRM Integration
 
-### Option B: Formspree
-- Third-party form backend
-- Built-in email notifications
-- **Pros**: Zero code, quick setup
-- **Cons**: Less control, monthly limits
+We now use VestorCRM, an embedded form widget that handles:
+- Lead capture (name, email, phone)
+- Lead storage in VestorCRM dashboard
+- Email notifications to sales team
+- Auto-response emails to leads
 
-### Chosen: Option A (Vercel Serverless)
-More flexibility for auto-response customization.
+### Implementation Details
 
-## Auto-Response Email
-- Subject: "Your Tennyson Street Development Plans"
-- Body: Thank you message + property highlights + PDF attachment
-- Attachment: Architectural plans PDF (< 10MB)
+```tsx
+// CRMForm.tsx
+<iframe
+  id="LdaCPNYcSHuxuehlYyEv"
+  src="https://app.vestorcrm.com/widget/LdaCPNYcSHuxuehlYyEv"
+  // ...
+/>
+```
 
-## Data Storage
-- Simple JSON file in Vercel KV or blob storage
-- Fields: name, email, timestamp, source
-- Export capability for manual follow-up
+### Why We Changed
 
-## No CA Required
-Per project requirements, no Confidentiality Agreement needed before viewing materials.
+1. **Faster implementation** - No serverless functions to write/maintain
+2. **Built-in CRM** - VestorCRM provides lead management dashboard
+3. **Auto-responses** - Handled by VestorCRM without custom code
+4. **Reliability** - Third-party handles email deliverability
+
+## Current Flow
+
+```
+User visits landing page
+         │
+         ▼
+Sees VestorCRM embedded form
+         │
+         ▼
+Enters info + submits
+         │
+         ▼
+VestorCRM handles everything:
+  ├──► Stores lead in CRM
+  ├──► Notifies sales team
+  └──► Sends auto-response to user
+         │
+         ▼
+User sees confirmation in widget
+```
 
 # Consequences
 
 **Positive:**
-- Instant gratification for leads (immediate PDF delivery)
-- Simple lead list for follow-up
-- No third-party CRM costs
-- Full control over email content
+- Zero backend code to maintain
+- Professional CRM with lead tracking
+- Reliable email delivery
+- Quick to implement and modify
 
 **Negative:**
-- No sophisticated lead scoring
-- Manual export required for follow-up
-- Email deliverability depends on sender reputation
+- Dependency on third-party service
+- Less customization of email content
+- Data lives outside our infrastructure
+- Monthly cost for VestorCRM subscription
+
+# Migration Notes
+
+The Resend email service dependency was removed in commit f13c1d8. All email capture is now handled through the VestorCRM widget.

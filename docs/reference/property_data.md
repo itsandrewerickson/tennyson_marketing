@@ -47,8 +47,8 @@
 | Field | Value |
 |-------|-------|
 | **Year Built** | 1941 |
-| **Bedrooms** | 3 |
-| **Bathrooms** | 2 |
+| **Bedrooms** | 2 |
+| **Bathrooms** | 1 |
 | **Living SF** | 1,344 |
 | **Condition** | Fully Renovated |
 | **Features** | Full kitchen, living room, direct courtyard access |

@@ -6,13 +6,14 @@
 
 | Metric | Pre-Dev | Post-Dev | Change |
 |--------|---------|----------|--------|
-| **Acquisition Price** | $1,790,000 | — | — |
-| **Total Investment** | — | $3,688,376 | 106% increase |
-| **Projected ARV** | — | $4,121,600 | **$2,331,600 value add** |
+| **Acquisition Price** | $1,624,000 | — | Reduced from $1,790,000 |
+| **Total Investment** | — | $3,131,330 | 93% increase over acquisition |
+| **Projected ARV** | — | $4,121,600 | **$2,497,600 value add over acquisition** |
 | **Units** | 9 | 9 | — |
-| **Price Per Unit** | $198,889 | $457,956 | **130% increase** |
+| **Price Per Unit** | $180,444 | $457,956 | **154% increase** |
 | **Annual NOI** | — | $185,472 | — |
 | **Implied Cap Rate** | — | 4.5% | Exit cap rate |
+| **Yield on Cost** | — | 6.36% | ~186 bps spread to market cap |
 
 ---
 
@@ -70,24 +71,26 @@ Your Project (4.5% exit):           4.50% ─┤  Conservative
 | **TOTAL** | **9** | — | **$23,000** | **$276,000** |
 
 **After 4% Vacancy:** $264,960 annual effective income
+**OpEx (30%):** ~$79,488/yr → **Annual NOI: $185,472**
 
 ---
 
 ### Development Transformation
 
 **Hard Numbers:**
-- **Land + Building Acquisition:** $1,790,000
-- **ADU Development (4,700 SF @ $340/SF):** $1,598,000
+- **Land + Building Acquisition:** $1,624,000
+- **ADU Development (3,760 SF @ $330/SF):** $1,240,800
 - **Soft Costs (Permits/Professional Fees):** $50,000
-- **Financing Costs (12-month development):** $250,376
-- **Total All-In Cost:** $3,688,376
+- **Financing Costs (12-month, 80% LTV @ 10%):** $216,530
+- **Total All-In Cost:** $3,131,330
 
 **Value Creation:**
-- **Purchase Price:** $1,790,000
-- **Total Investment:** $3,688,376
+- **Purchase Price:** $1,624,000
+- **Total Investment:** $3,131,330
 - **Projected ARV:** $4,121,600
-- **Gross Profit:** $433,224
-- **ROE:** 47%
+- **Gross Profit:** $990,270
+- **Profit / Project Cost:** 32%
+- **Return on Equity (25% raise = $782,832):** 126%
 
 ---
 
@@ -99,11 +102,11 @@ Your Project (4.5% exit):           4.50% ─┤  Conservative
 |----------|----------|--------------|
 | 3034 Canon St | $556 | |
 | 4865 Brighton Ave | $697 | |
-| **Your Projected Value** | — | **$638/SF** |
+| **Your Projected Value (ARV)** | — | **$807/SF** |
 | 4225-4227 Whittier | $902 | |
 
-**Your position:** Mid-market at $638/SF, reflecting:
-- High-quality point Loma location
+**Your position:** Mid-market at $807/SF (ARV ÷ 5,104 post-dev SF), reflecting:
+- High-quality Point Loma location
 - New construction (ADUs)
 - Excellent walkability & amenities
 - Not premium Ocean Beach strip pricing
@@ -136,6 +139,7 @@ Your Project (4.5% exit):           4.50% ─┤  Conservative
 ✓ **Unit Mix:** Mix of 1 & 2 bedroom appeals to broader renter base
 ✓ **Development:** New ADU construction adds modern amenities
 ✓ **Cap Rate:** Conservative 4.5% exit provides margin of safety
+✓ **Yield Spread:** 6.36% yield on cost vs. ~4.5% market cap = real margin
 
 ### Market Demand Signals from Comps
 
@@ -156,10 +160,10 @@ Your Project (4.5% exit):           4.50% ─┤  Conservative
 2. **Per Unit Pricing:** Your **$457,956/unit** matches market comparables
 3. **Cap Rate:** Your **4.5% exit cap** is conservative vs. 3.72%-3.93% market leader
 4. **Rental Income:** Your **$2,500-$3,000/unit/month** aligns with Point Loma market rents
-5. **Return Profile:** 47% ROE with $433K profit on $922K raised capital
+5. **Return Profile:** **126% ROE** with **$990K profit** on **$782,832 raised equity**
 
 ### Bottom Line:
-Post-development property positioned as **mid-market premium coastal multifamily** with strong fundamentals matching or exceeding comparable sales benchmarks.
+Post-development property positioned as **mid-market premium coastal multifamily** with strong fundamentals matching or exceeding comparable sales benchmarks. At the reduced acquisition price of $1.624M, the residential compound supports the basis on its own — the entitled 8-ADU development is upside.
 
 ---
 
@@ -187,5 +191,4 @@ The spreadsheet includes:
 | **Is the exit realistic?** | Yes - 4.5% cap is conservative vs. comps | Built-in margin of safety |
 | **Are rents reasonable?** | Yes - $2,500-$3,000 is market rate | Strong cash flow stability |
 | **Is the location premium?** | Yes - Point Loma coastal, Walk Score 90+ | Draws investor demand |
-| **What's the downside?** | Even at 5% cap, value exceeds $3.7M | Downside protected |
-
+| **What's the downside?** | Acquisition supported by residential value alone | Real estate floor under the basis |

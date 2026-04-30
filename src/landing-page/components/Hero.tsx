@@ -5,7 +5,7 @@ import { property, formatPrice } from "@/lib/propertyData";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-20 md:py-28">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -20,10 +20,17 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
-        <div className="inline-block bg-zinc-950/80 backdrop-blur-md px-4 py-1.5 rounded-full mb-6 border border-white/10 shadow-xl">
-          <p className="text-white font-bold tracking-widest uppercase text-xs md:text-sm">
-            Exclusive Development Opportunity
-          </p>
+        <div className="inline-flex flex-wrap justify-center gap-2 mb-6">
+          <div className="bg-zinc-950/80 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/10 shadow-xl">
+            <p className="text-white font-bold tracking-widest uppercase text-xs md:text-sm">
+              Exclusive Development Opportunity
+            </p>
+          </div>
+          <div className="bg-[#C9A227] px-4 py-1.5 rounded-full border border-white/20 shadow-xl animate-pulse">
+            <p className="text-zinc-950 font-black tracking-widest uppercase text-xs md:text-sm">
+              ★ Price Reduced — $166K Off
+            </p>
+          </div>
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
@@ -34,10 +41,16 @@ export default function Hero() {
           {property.address} • Fully Entitled with 8 Approved ADUs
         </p>
 
-        {/* Swapped Label/Price to be Above Stats */}
+        {/* Price block with reduction callout */}
         <div className="mb-10">
+          <p className="text-white/80 text-lg md:text-xl font-medium mb-1 line-through decoration-2">
+            Was {formatPrice(property.previousPrice)}
+          </p>
           <p className="text-zinc-950 text-5xl md:text-6xl font-black drop-shadow-[0_2px_4px_rgba(255,255,255,0.4)] tracking-tight">
             {formatPrice(property.askingPrice)}
+          </p>
+          <p className="text-white text-sm md:text-base font-semibold mt-3 max-w-xl mx-auto drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
+            Priced at residential value. 8 entitled ADU plans included free.
           </p>
         </div>
 

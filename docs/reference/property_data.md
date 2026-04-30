@@ -23,9 +23,13 @@
 
 | Field | Value |
 |-------|-------|
-| **Asking Price** | $1,790,000 |
-| **Price/SF (Land)** | $320 |
-| **Price/SF (Living)** | $1,332 |
+| **Asking Price** | $1,624,000 (reduced from $1,790,000) |
+| **Previous Price** | $1,790,000 |
+| **Price Reduction** | $166,000 |
+| **Price/SF (Land)** | $290 |
+| **Price/SF (Living)** | $1,208 |
+| **Status** | Price Reduced — actively seeking a buyer or development partner |
+| **Residential Hold Value** | ~$1,624,000 (justified by current rental + STR income alone, before any ADU build) |
 
 ---
 
@@ -146,7 +150,24 @@
 | **Notes** | Property has active STR permit; can generate income during development planning |
 
 ### Pro Forma (Post-Development)
-[To be populated with detailed projections]
+| Field | Value |
+|-------|-------|
+| **Acquisition Price** | $1,624,000 |
+| **Total Dev Costs** | $1,290,800 (3,760 SF @ $330/SF + $50K soft costs) |
+| **Finance Costs (12 mo, 80% LTV @ 10%)** | $216,530 |
+| **Total Project Cost** | $3,131,330 |
+| **Gross Monthly Rent (9 units)** | $23,000 ($3,000 main + 8 × $2,500) |
+| **Vacancy** | 4% |
+| **Effective Annual Rent** | $264,960 |
+| **OpEx %** | 30% |
+| **Annual NOI** | $185,472 |
+| **Exit Cap Rate** | 4.50% |
+| **ARV** | $4,121,600 |
+| **$/Door** | $457,956 |
+| **Gross Profit** | $990,270 |
+| **Profit / Project Cost** | 32% |
+| **Yield on Cost** | 6.36% |
+| **Return on Equity (25% raise)** | 126% |
 
 ### Comparable Sales
 [To be populated with recent sales data]

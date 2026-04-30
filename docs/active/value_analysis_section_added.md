@@ -15,17 +15,17 @@ A new "Post-Development Value Analysis" section has been added to the landing pa
 
 ### 1. Quick Metrics Grid (4 Cards)
 Displays key financial figures at a glance:
-- Acquisition Price: $1,790,000
-- Total Investment: $3,688,376
-- Projected ARV: $4,264,960
-- Gross Profit: $576,584
+- Acquisition Price: $1,624,000 (reduced from $1,790,000)
+- Total Investment: $3,131,330
+- Projected ARV: $4,121,600
+- Gross Profit: $990,270
 
 ### 2. Market Comparison Table
 Shows how your valuation compares to market comps:
-- **Price Per Unit**: Your $473,884 vs Market $383K-$600K
-- **Price Per SF**: Your $660 vs Market $556-$902
+- **Price Per Unit**: Your $457,956 vs Market $383K-$600K
+- **Price Per SF (ARV)**: Your $807 vs Market $556-$902
 - **Exit Cap Rate**: Your 4.5% vs Market 3.72%-4.38%
-- **Annual NOI**: Your $191,928 with context
+- **Yield on Cost**: Your 6.36% vs ~4.5% market cap (~186 bps spread)
 
 Each metric includes a position indicator (Mid-Market, Conservative, etc.)
 
@@ -40,19 +40,19 @@ Dark-themed cards highlighting:
 Detailed metrics across three dimensions:
 
 **Unit Economics**
-- Price Per Unit: $473,884
-- Monthly Gross Income: $23,800
-- Average Monthly Rent: $2,644/unit
+- Price Per Unit: $457,956
+- Monthly Gross Income: $23,000
+- Average Monthly Rent: $2,556/unit
 
 **Development Returns**
-- Gross Profit: $576,584
-- Return on Equity: 63%
-- Profit Margin: 16%
+- Gross Profit: $990,270
+- Return on Equity (25% raise): 126%
+- Profit / Project Cost: 32%
 
 **Exit Assumptions**
 - Exit Cap Rate: 4.5%
-- Annual NOI: $191,928
-- Gross Rent Multiplier: 22.2x
+- Annual NOI: $185,472
+- Yield on Cost: 6.36%
 
 ### 5. Market Position Statement
 Dark gradient box with key messaging:

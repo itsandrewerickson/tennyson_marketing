@@ -2,7 +2,7 @@
 
 export default function ValueAnalysis() {
     const metrics = [
-        { label: 'Acquisition Price', value: '$1,624,000' },
+        { label: 'Acquisition Price', value: '$1,599,000' },
         { label: 'Total Investment', value: '$3,131,330' },
         { label: 'Projected ARV', value: '$4,121,600' },
         { label: 'Gross Profit', value: '$990,270' },

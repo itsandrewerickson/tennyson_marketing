@@ -6,7 +6,7 @@
 
 | Metric | Pre-Dev | Post-Dev | Change |
 |--------|---------|----------|--------|
-| **Acquisition Price** | $1,624,000 | — | Reduced from $1,790,000 |
+| **Acquisition Price** | $1,599,000 | — | Reduced from $1,790,000 |
 | **Total Investment** | — | $3,131,330 | 93% increase over acquisition |
 | **Projected ARV** | — | $4,121,600 | **$2,497,600 value add over acquisition** |
 | **Units** | 9 | 9 | — |
@@ -78,14 +78,14 @@ Your Project (4.5% exit):           4.50% ─┤  Conservative
 ### Development Transformation
 
 **Hard Numbers:**
-- **Land + Building Acquisition:** $1,624,000
+- **Land + Building Acquisition:** $1,599,000
 - **ADU Development (3,760 SF @ $330/SF):** $1,240,800
 - **Soft Costs (Permits/Professional Fees):** $50,000
 - **Financing Costs (12-month, 80% LTV @ 10%):** $216,530
 - **Total All-In Cost:** $3,131,330
 
 **Value Creation:**
-- **Purchase Price:** $1,624,000
+- **Purchase Price:** $1,599,000
 - **Total Investment:** $3,131,330
 - **Projected ARV:** $4,121,600
 - **Gross Profit:** $990,270
@@ -163,7 +163,7 @@ Your Project (4.5% exit):           4.50% ─┤  Conservative
 5. **Return Profile:** **126% ROE** with **$990K profit** on **$782,832 raised equity**
 
 ### Bottom Line:
-Post-development property positioned as **mid-market premium coastal multifamily** with strong fundamentals matching or exceeding comparable sales benchmarks. At the reduced acquisition price of $1.624M, the residential compound supports the basis on its own — the entitled 8-ADU development is upside.
+Post-development property positioned as **mid-market premium coastal multifamily** with strong fundamentals matching or exceeding comparable sales benchmarks. At the reduced acquisition price of $1.599M, the residential compound supports the basis on its own — the entitled 8-ADU development is upside.
 
 ---
 

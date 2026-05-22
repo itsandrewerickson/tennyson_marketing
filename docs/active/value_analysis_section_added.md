@@ -15,7 +15,7 @@ A new "Post-Development Value Analysis" section has been added to the landing pa
 
 ### 1. Quick Metrics Grid (4 Cards)
 Displays key financial figures at a glance:
-- Acquisition Price: $1,624,000 (reduced from $1,790,000)
+- Acquisition Price: $1,599,000 (reduced from $1,790,000)
 - Total Investment: $3,131,330
 - Projected ARV: $4,121,600
 - Gross Profit: $990,270

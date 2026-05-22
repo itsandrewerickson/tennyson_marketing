@@ -12,12 +12,12 @@ export const property = {
   legalDescription: "BLK 20*LOT 8",
 
   // Pricing
-  askingPrice: 1624000,
+  askingPrice: 1599000,
   previousPrice: 1790000,
-  priceReduction: 166000,
+  priceReduction: 191000,
   priceReduced: true,
-  pricePerSFLand: 290,
-  pricePerSFLiving: 1208,
+  pricePerSFLand: 286,
+  pricePerSFLiving: 1190,
 
   // Land & Zoning
   lotSizeSF: 5595,
@@ -200,8 +200,8 @@ export const highlights = [
   },
   {
     icon: "dollar",
-    title: "$1,624,000",
-    description: "Price reduced $166K — residential value alone, ADU plans free",
+    title: "$1,599,000",
+    description: "Price reduced $191K — residential value alone, ADU plans free",
   },
   {
     icon: "map",

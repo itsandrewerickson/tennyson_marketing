@@ -19,7 +19,7 @@ export default function Opportunity() {
                 ★ Just Reduced — Slam Dunk Pricing
               </p>
               <p className="text-zinc-950 text-2xl md:text-3xl font-black">
-                $1,790,000 <span className="text-zinc-900/70">→</span> $1,624,000
+                $1,790,000 <span className="text-zinc-900/70">→</span> $1,599,000
               </p>
             </div>
             <div className="text-zinc-950 text-center md:text-right">

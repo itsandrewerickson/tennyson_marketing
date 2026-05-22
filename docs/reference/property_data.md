@@ -23,13 +23,13 @@
 
 | Field | Value |
 |-------|-------|
-| **Asking Price** | $1,624,000 (reduced from $1,790,000) |
+| **Asking Price** | $1,599,000 (reduced from $1,790,000) |
 | **Previous Price** | $1,790,000 |
-| **Price Reduction** | $166,000 |
-| **Price/SF (Land)** | $290 |
-| **Price/SF (Living)** | $1,208 |
+| **Price Reduction** | $191,000 |
+| **Price/SF (Land)** | $286 |
+| **Price/SF (Living)** | $1,190 |
 | **Status** | Price Reduced — actively seeking a buyer or development partner |
-| **Residential Hold Value** | ~$1,624,000 (justified by current rental + STR income alone, before any ADU build) |
+| **Residential Hold Value** | ~$1,599,000 (justified by current rental + STR income alone, before any ADU build) |
 
 ---
 
@@ -152,7 +152,7 @@
 ### Pro Forma (Post-Development)
 | Field | Value |
 |-------|-------|
-| **Acquisition Price** | $1,624,000 |
+| **Acquisition Price** | $1,599,000 |
 | **Total Dev Costs** | $1,290,800 (3,760 SF @ $330/SF + $50K soft costs) |
 | **Finance Costs (12 mo, 80% LTV @ 10%)** | $216,530 |
 | **Total Project Cost** | $3,131,330 |

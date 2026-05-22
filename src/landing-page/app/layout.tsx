@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "3754-56 Tennyson Street | Point Loma Development Opportunity",
   description:
-    "PRICE REDUCED to $1,624,000. Rare Point Loma development opportunity — turnkey home priced as a residential hold, with 8 grandfathered ADU plans included. Seeking buyer or capital partner.",
+    "PRICE REDUCED to $1,599,000. Rare Point Loma development opportunity — turnkey home priced as a residential hold, with 8 grandfathered ADU plans included. Seeking buyer or capital partner.",
   keywords: [
     "Point Loma real estate",
     "San Diego ADU",
